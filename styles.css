@@ -117,7 +117,6 @@ html {
 }
 .skills_description #line{
     position:absolute;
-
     width: 90%;
     margin: 60px 1600px 0 100px; 
 }
@@ -127,6 +126,7 @@ html {
     position: absolute;
     margin: 200px;
 }
+
 .skills_description #inline2{
     display: inline;
     position: absolute;
@@ -134,6 +134,7 @@ html {
     margin: 200px;
 
 }
+
 .skills_description #inline3{
     display: inline;
     position: absolute;
@@ -141,12 +142,14 @@ html {
     margin: 200px;
 
 }
+
 .skills_description #actual_img{
     position: absolute;
     width: 150px;
     height: 150px;
     top: 200%;
 }
+
 .skills_description #front_image #actual_img{
     left: 12%;
 }
