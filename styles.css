@@ -65,6 +65,9 @@ html {
     padding: 30px 50px 30px 50px;
 }
 
+.header_icon:active{
+    background-color:rgb(177, 149, 149);
+}
 .navigator #name{
     display: inline;
     position: relative;
