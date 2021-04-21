@@ -220,11 +220,11 @@ html {
     max-width: 100%;
 }
 
-.contact_info #footer_indent{
-    display: inline;
+.contact_info .footer_indent{
     position: absolute;
+    width:15%;
     height: 15%;
-    top:500%;
+    top: 500%;
 }
 
 .scroll_down{
