@@ -35,7 +35,6 @@ body{
 
 .pfp:hover{
     border-width: 2px;
-    background-color: red;
     padding: 30px;
 }
 .navigator .header_icon{
@@ -188,41 +187,42 @@ html {
 .contact_info #contact_img{
     width: 150px;
     height: 150px;
-    /* padding: 100px; */
     margin:100px;
+    transition: .5s;
+
 }
 
 .contact_info #git{
     display: inline;
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 0;
+    height: 0;
     left: 12%;
     top: 200%;
-    max-height: 100%;
-    max-width: 100%;
 }
 
 .contact_info #linked{
     display: inline;
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 0;
+    height: 0;
     left: 42%;
     top: 200%;
-    max-height: 100%;
-    max-width: 100%;
 }
 
 .contact_info #outlook{
     display: inline;
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 0;
+    height: 0;
     left: 72%;
     top: 200%;
-    max-height: 100%;
-    max-width: 100%;
+}
+
+.contact_info #contact_img:hover{
+    display: inline;
+    position: absolute;
+    transform:scale(1.1);
 }
 
 .contact_info .footer_indent{
