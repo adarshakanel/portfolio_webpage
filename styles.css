@@ -70,7 +70,7 @@ html {
     left: 20%;
     font-size: 60px;
     margin: 10px 0 0 0;
-    top: -25px;
+    top: -15px;
 }
 
 .level{
@@ -130,51 +130,34 @@ html {
 .skills_description #inline2{
     display: inline;
     position: absolute;
-    left: 40%;
+    left: 36%;
     margin: 200px;
 
 }
 .skills_description #inline3{
     display: inline;
     position: absolute;
-    left: 80%;
+    left: 75%;
     margin: 200px;
 
 }
 .skills_description #actual_img{
-    width: 150px;
-    height: 150px;
-}
-.skills_description #front_image{
-    display: inline;
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 12%;
     top: 200%;
-    max-height: 100%;
-    max-width: 100%;
+}
+.skills_description #front_image #actual_img{
+    left: 12%;
 }
 
-.skills_description #back_end_image{
-    display: inline;
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 52%;
-    top: 200%;
-    max-height: 100%;
-    max-width: 100%;
+.skills_description #back_end_image #actual_img{
+    left: 48%;
 }
-.skills_description #other_image{
-    display: inline;
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 92%;
-    top: 200%;
-    max-height: 100%;
-    max-width: 100%;
+.skills_description #other_image #actual_img{
+    left: 85%;
+    height: 140px;
+    width: 140px;
 }
 
 .contact_info{
@@ -200,7 +183,8 @@ html {
 .contact_info #contact_img{
     width: 150px;
     height: 150px;
-    padding: 100px;
+    /* padding: 100px; */
+    margin:100px;
 }
 
 .contact_info #git{
@@ -225,7 +209,7 @@ html {
     max-width: 100%;
 }
 
-.contact_info #indeed{
+.contact_info #outlook{
     display: inline;
     position: absolute;
     width: 150px;
@@ -234,6 +218,13 @@ html {
     top: 200%;
     max-height: 100%;
     max-width: 100%;
+}
+
+.contact_info #footer_indent{
+    display: inline;
+    position: absolute;
+    height: 15%;
+    top:500%;
 }
 
 .scroll_down{
@@ -247,6 +238,7 @@ html {
     cursor: pointer;
 
 }
+
 .scroll_down::before,
 .scroll_down::after{
     content:'';
