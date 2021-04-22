@@ -117,13 +117,15 @@ html {
     background-color:rgb(133, 112, 112);
 }
 
-.level{
-    position: absolute;
-    top: 110%;
-    border-width: 2px;
+
+.my_info{
+    position:absolute;
+    padding: 5% 0 0 0;
+    top:105%;
+    width: 100%;
 }
 
-.level #about_title{
+.my_info #about_title{
     position: absolute;
     left: 40%;
     top: 0%;
@@ -131,120 +133,103 @@ html {
     font-size: 4vw;
 }
 
-.level #line{
+.my_info #lines{
+    position:absolute;
+    top: 0%;
     width: 90%;
     margin: 4% 15% 0 5%;
 }
 
-.level #about_description{
-    margin: 2% 5% 5% 5%;
+.my_info #about_description{
+    margin: 1% 5% 5% 5%;
     font-size: 2vw;
     text-align: center;
-    margin: 50px;
 }
 
-.skills_description{
+.my_info #sk{
     position:absolute;
-    padding: 5% 0 0 0;
-    top:130%;
-    width: 100%;
-}
-
-.skills_description #sk{
-    position:absolute;
-    top: 80%;
     left: 45%;
     margin: 0 0 50px 0;
+    top: 360%;
     font-size: 4vw;
 
 
 }
-.skills_description #line{
+.my_info #line{
     position:absolute;
+    /* left: 5%; */
+    top: 450%;
     width: 90%;
-    left: 5%;
-    top: 150%;
-    display: block;
-
+    margin: 0% 15% 0 5%;
 }
 
-.skills_description #inline{
+.my_info #inline{
     position: absolute;
     margin: 10%;
-    top: 110%;
+    top: 400%;
     font-size: 2vw;
 
 }
 
-.skills_description #inline2{
+.my_info #inline2{
     position: absolute;
     left: 36%;
     margin: 10%;
-    top: 110%;
+    top: 400%;
     font-size: 2vw;
 
 }
 
-.skills_description #inline3{
+.my_info #inline3{
     position: absolute;
     left: 68%;
     margin: 10%;
-    top: 110%;
+    top: 400%;
     font-size: 2vw;
 
 }
 
-.skills_description #actual_img{
+.my_info #actual_img{
     position: absolute;
     width: 7.5%;
     height: 150%;
-    top: 190%;
+    top: 490%;
 }
 
-.skills_description #front_image #actual_img{
+.my_info #front_image #actual_img{
     margin: 0 0 5% 0;
     left: 10%;
 }
 
-.skills_description #back_end_image #actual_img{
+.my_info #back_end_image #actual_img{
     left: 46%;
 }
-.skills_description #other_image #actual_img{
+.my_info #other_image #actual_img{
     left: 78%;
 }
 
-.contact_info{
-    display: inline;
-    position: absolute;
+.my_info #ct{
     font-size: 3vw;
-    padding: 5% 0 0 0;
-    /* margin: 10% 0 0 0; */
-    width: 100%;
-    height: 10%;
-    top: 185%;
-}
-
-.contact_info #ct{
     display: block;
     position: absolute;
-    left: 33%;
-    top: 90%;
+    left: 38%;
+    top: 1200%;
 }
 
-.contact_info #line{
+.my_info #line2{
     position:absolute;
     width: 90%;
-    top: 160%;
+    top: 1320%;
     left: 5%;
 }
 
-.contact_info #contact_img{
-    top: 210%;
+.my_info #contact_img{
+    top: 1370%;
     transition: .5s;
     width: 7%;
 }
 
-.contact_info #git #contact_img{
+.my_info #git #contact_img{
     display: inline;
     position: absolute;
     left: 28%;
@@ -252,7 +237,7 @@ html {
 
 }
 
-.contact_info #linked #contact_img{
+.my_info #linked #contact_img{
     display: inline;
     position: absolute;
     left: 42%;
@@ -260,22 +245,22 @@ html {
 
 }
 
-.contact_info #outlook #contact_img{
+.my_info #outlook #contact_img{
     display: inline;
     position: absolute;
     left: 58%;
     margin: 0 1% 0 0;
 }
 
-.contact_info #contact_img:hover{
+.my_info #contact_img:hover{
     transform:scale(1.1);
 }
 
-.contact_info .footer_indent{
+.my_info .footer_indent{
     position: absolute;
     width:15%;
     height: 15%;
-    top: 300%;
+    top: 1530%;
 }
 
 .scroll_down{
