@@ -28,6 +28,7 @@ body{
     background-image:url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
     margin: 0%, 100%, 10%, 100%;
     font-size: 1.1vw;
+
 }
 
 .navigator .pfp{
@@ -37,7 +38,7 @@ body{
     transition: .5s;
     padding: 1.4% 1.4% 1.4% 1.4%;
     border-radius: 50%;
-    margin: 0% 0 0 0;
+    top:0%;
 }
 
 .navigator .name{
@@ -46,6 +47,8 @@ body{
     font-size: 2vw;
     left: 20%;
     margin: -1% 0 0 0;
+    top: 10%;
+
 }
 
 .navigator .header_icon1, .navigator .header_icon2, .navigator .header_icon3, .navigator .header_icon4{
@@ -56,22 +59,25 @@ body{
     padding: 1.4% 1.9% 1.4% 1.9%;
     border-radius: 20%;
     margin: 0% 5% 0 0;
+    box-shadow: 1px 1px #888888;
+    top: 5%;
+
 }
 
 .navigator .header_icon1{
-    left: 68%;
+    left: 67%;
 
 }
 .navigator .header_icon2{
-    left: 60%;
+    left: 58%;
 
 }
 .navigator .header_icon3{
-    left: 76.5%;
+    left: 77%;
 
 }
 .navigator .header_icon4{
-    left: 84%;
+    left: 86%;
 }
 .pfp:hover{
     transform:scale(1.1);
@@ -264,7 +270,7 @@ html {
     bottom: 20px;
     border-radius: 50px;
     cursor: pointer;
-
+    transition-duration: 0.5s;
 }
 
 .scroll_down::before,
@@ -282,6 +288,9 @@ html {
     animation: scroll-down 1s ease-in-out infinite;
 }
 
+.scroll_down:hover{
+    transform: scale(1.2);
+}
 .scroll_down::after{
     top:30%;
     animation-delay: .3s;
