@@ -6,63 +6,48 @@ body{
     font-family: sans-serif ;
 }
 
-.WebContainer{
-    width:100%;
-    min-width:1600px;
-    height:auto;
-}
-
 .intro{
     position: absolute;
     left: 35%;
-    padding: 0 0 30% 0;
-    top: 30%;
+    padding: 0 0 600px 0;
+    top: 40%;
     font-size: 60px;
     width: 40%;
     text-align: center;
 }
 .navigator{
     position: fixed;
-    padding: 1%;
+    padding: 10px;
     z-index: 2;
-    width:100%;
     background-image:url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
-    padding:2% 2% 0 2%;
-    margin: 0%, 100%, 10%, 100%;
 }
 
 .navigator .pfp{
     display: inline;
     position:relative;
     background-color: white;
-    transition: .5s;
-    padding: 1.5%;
+    padding: 25px;
     top: 25px;
     transition: .5s;
     border-radius: 50%;
-    top: 1%;
-    margin: 0 10% 0 0;
+    margin: 0 1000px 0 0;
 }
 
-.navigator .name{
-    position: relative;
-    font-size: xx-large;
-    margin: -3% 40% 0 10%;
+.pfp:hover{
+    border-width: 2px;
+    padding: 30px;
 }
-
 .navigator .header_icon{
     display: inline;
     position: relative;
     background-color: rgb(66, 64, 64);
     transition: .5s;
-    left: 42%;
-    padding: 1.5% 2% 1.5% 2%;
-    margin: 1% .5% 1% .5%;
+    padding: 25px 45px 25px 45px;
+    top: 25px;
+    margin: 0 0 0 10px;
+    color: rgb(182, 179, 179);
+    font-size: 20px;
     border-radius: 20%;
-}
-
-.pfp:hover{
-    padding: 1.7% 1.7% 1.7% 1.7%;
 }
 
 html {
@@ -76,119 +61,108 @@ html {
 
 .header_icon:hover{
     background-color:rgb(58, 36, 36);
-    padding: 2% 2.5% 2% 2.5%;
-
+    border-width: 2px;
+    padding: 30px 50px 30px 50px;
 }
 
 .header_icon:active{
     background-color:rgb(177, 149, 149);
+}
+.navigator #name{
+    display: inline;
+    position: relative;
+    left: 20%;
+    font-size: 60px;
+    margin: 10px 0 0 0;
+    top: -15px;
 }
 
 .level{
     position: absolute;
     top: 110%;
     border-width: 2px;
-    display: block;
 }
 
 .skills_description{
     position: absolute;
-    display: block;
+    top: 110%;
 }
 
 .level #about_title{
     position: absolute;
     left: 45%;
-    top: 0%;
-    font-size: xxx-large;
-    margin: -1% 0 10% 0;
-    display: block;
-
+    font-size: 60px;
+    margin: 0 0 160px 0;
 }
 
 .level #line{
     width: 90%;
-    margin: 4% 15% 0 5%;
-    display: block;
-
+    margin: 80px 100px 0 100px;
 }
 
 .level #about_description{
-    margin: 2% 5% 5% 5%;
-    font-size: xx-large;
+    margin: 0 100px 0 100px;
+    font-size: 40px;
     text-align: center;
     margin: 50px;
-    display: block;
-
 }
 
 .skills_description{
     position:absolute;
-    padding: 5% 0 0 0;
+    padding: 100px 1800px 0 0;
     font-size: 40px;
     top:130%;
-    margin: .5% 0 .5% 0;
-    display: block;
-    width: 100%;
 }
 
 .skills_description #sk{
     position:absolute;
-    top: 80%;
-    left: 45%;
+    left:47%;
     margin: 0 0 50px 0;
-    display: block;
-
 }
 .skills_description #line{
     position:absolute;
     width: 90%;
-    left: 5%;
-    top: 150%;
-    display: block;
-
+    margin: 60px 1600px 0 100px; 
 }
 
 .skills_description #inline{
+    display: inline;
     position: absolute;
-    margin: 10%;
-    top: 200%;
-
+    margin: 200px;
 }
 
 .skills_description #inline2{
+    display: inline;
     position: absolute;
     left: 36%;
-    margin: 10%;
-    top: 200%;
+    margin: 200px;
 
 }
 
 .skills_description #inline3{
+    display: inline;
     position: absolute;
-    left: 68%;
-    margin: 10%;
-    top: 200%;
+    left: 75%;
+    margin: 200px;
 
 }
 
 .skills_description #actual_img{
     position: absolute;
-    width: 7.5%;
-    height: 150%;
-    top: 250%;
+    width: 150px;
+    height: 150px;
+    top: 200%;
 }
 
 .skills_description #front_image #actual_img{
-    margin: 0 0 5% 0;
-    left: 10%;
+    left: 12%;
 }
 
 .skills_description #back_end_image #actual_img{
-    left: 46%;
+    left: 48%;
 }
 .skills_description #other_image #actual_img{
-    left: 78%;
+    left: 85%;
     height: 140px;
     width: 140px;
 }
@@ -196,12 +170,9 @@ html {
 .contact_info{
     display: inline;
     position: absolute;
-    width: 100%;
-    height: 10%;
     font-size: 40px;
     top:200%;
-    margin: 10% 0 0 0;
-    /* padding: 100px 1800px 0 0; */
+    padding: 100px 1800px 0 0;
 }
 
 .contact_info #ct{
@@ -229,8 +200,8 @@ html {
     position: absolute;
     width: 0;
     height: 0;
-    left: 8%;
-    top: 100%;
+    left: 12%;
+    top: 200%;
 }
 
 .contact_info #linked{
@@ -239,7 +210,7 @@ html {
     width: 0;
     height: 0;
     left: 42%;
-    top: 100%;
+    top: 200%;
 }
 
 .contact_info #outlook{
@@ -248,7 +219,7 @@ html {
     width: 0;
     height: 0;
     left: 72%;
-    top: 100%;
+    top: 200%;
 }
 
 .contact_info #contact_img:hover{
@@ -261,7 +232,7 @@ html {
     position: absolute;
     width:15%;
     height: 15%;
-    top: 400%;
+    top: 500%;
 }
 
 .scroll_down{
