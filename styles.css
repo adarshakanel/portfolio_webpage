@@ -94,6 +94,23 @@ html {
 
 .header_icon1:hover, .header_icon2:hover, .header_icon3:hover, .header_icon4:hover{
     transform:scale(1.1);
+    color:rgb(177, 90, 9);
+    text-shadow: 0.05vw 0.05vw rgb(7, 0, 0);
+}
+
+.header_icon1:after, .header_icon2:after, .header_icon3:after, .header_icon4:after{
+    content: '';
+    display: block;
+    height: 0.01vw;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.header_icon1:hover:after, .header_icon2:hover:after, .header_icon3:hover:after, .header_icon4:hover:after{
+    width: 100%;
+    background:rgb(177, 90, 9);
+    transition: width .5s ease, background-color .5s ease;
 }
 
 .header_icon1:active, .header_icon2:active, .header_icon3:active, .header_icon4:active{
