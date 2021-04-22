@@ -6,48 +6,75 @@ body{
     font-family: sans-serif ;
 }
 
+.WebContainer{
+    width:100%;
+    height:auto;
+}
+
 .intro{
     position: absolute;
     left: 35%;
-    padding: 0 0 600px 0;
+    padding: 0 0 30% 0;
     top: 40%;
-    font-size: 60px;
+    font-size: 3vw;
     width: 40%;
     text-align: center;
 }
 .navigator{
     position: fixed;
-    padding: 10px;
+    padding: 1%;
     z-index: 2;
+    width:100%;
     background-image:url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    margin: 0%, 100%, 10%, 100%;
+    font-size: 1.1vw;
 }
 
 .navigator .pfp{
-    display: inline;
-    position:relative;
+    display: inline-block;
+    position: relative;
     background-color: white;
-    padding: 25px;
-    top: 25px;
     transition: .5s;
+    padding: 1.4% 1.4% 1.4% 1.4%;
     border-radius: 50%;
-    margin: 0 1000px 0 0;
+    margin: 0% 0 0 0;
 }
 
-.pfp:hover{
-    border-width: 2px;
-    padding: 30px;
+.navigator .name{
+    position: absolute;
+    display: inline-block;
+    font-size: 2vw;
+    left: 20%;
+    margin: -1% 0 0 0;
 }
-.navigator .header_icon{
-    display: inline;
-    position: relative;
-    background-color: rgb(66, 64, 64);
-    transition: .5s;
-    padding: 25px 45px 25px 45px;
-    top: 25px;
-    margin: 0 0 0 10px;
+
+.navigator .header_icon1, .navigator .header_icon2, .navigator .header_icon3, .navigator .header_icon4{
+    display: inline-block;
+    position: absolute;
     color: rgb(182, 179, 179);
-    font-size: 20px;
+    transition: .5s ease-in-out;
+    padding: 1.4% 1.9% 1.4% 1.9%;
     border-radius: 20%;
+    margin: 0% 5% 0 0;
+}
+
+.navigator .header_icon1{
+    left: 68%;
+
+}
+.navigator .header_icon2{
+    left: 60%;
+
+}
+.navigator .header_icon3{
+    left: 76.5%;
+
+}
+.navigator .header_icon4{
+    left: 84%;
+}
+.pfp:hover{
+    transform:scale(1.1);
 }
 
 html {
@@ -59,22 +86,13 @@ html {
     color: black;
 }
 
-.header_icon:hover{
+.header_icon1:hover, .header_icon2:hover, .header_icon3:hover, .header_icon4:hover{
+    transform:scale(1.1);
     background-color:rgb(58, 36, 36);
-    border-width: 2px;
-    padding: 30px 50px 30px 50px;
 }
 
 .header_icon:active{
     background-color:rgb(177, 149, 149);
-}
-.navigator #name{
-    display: inline;
-    position: relative;
-    left: 20%;
-    font-size: 60px;
-    margin: 10px 0 0 0;
-    top: -15px;
 }
 
 .level{
@@ -83,148 +101,150 @@ html {
     border-width: 2px;
 }
 
-.skills_description{
-    position: absolute;
-    top: 110%;
-}
-
 .level #about_title{
     position: absolute;
-    left: 45%;
-    font-size: 60px;
-    margin: 0 0 160px 0;
+    left: 40%;
+    top: 0%;
+    margin: -1% 0 10% 0;
+    font-size: 4vw;
 }
 
 .level #line{
     width: 90%;
-    margin: 80px 100px 0 100px;
+    margin: 4% 15% 0 5%;
 }
 
 .level #about_description{
-    margin: 0 100px 0 100px;
-    font-size: 40px;
+    margin: 2% 5% 5% 5%;
+    font-size: 2vw;
     text-align: center;
     margin: 50px;
 }
 
 .skills_description{
     position:absolute;
-    padding: 100px 1800px 0 0;
-    font-size: 40px;
+    padding: 5% 0 0 0;
     top:130%;
+    margin: .5% 0 .5% 0;
+    width: 100%;
 }
 
 .skills_description #sk{
     position:absolute;
-    left:47%;
+    top: 80%;
+    left: 45%;
     margin: 0 0 50px 0;
+    font-size: 4vw;
+
+
 }
 .skills_description #line{
     position:absolute;
     width: 90%;
-    margin: 60px 1600px 0 100px; 
+    left: 5%;
+    top: 150%;
+    display: block;
+
 }
 
 .skills_description #inline{
-    display: inline;
     position: absolute;
-    margin: 200px;
+    margin: 10%;
+    top: 200%;
+    font-size: 2vw;
+
 }
 
 .skills_description #inline2{
-    display: inline;
     position: absolute;
     left: 36%;
-    margin: 200px;
+    margin: 10%;
+    top: 200%;
+    font-size: 2vw;
 
 }
 
 .skills_description #inline3{
-    display: inline;
     position: absolute;
-    left: 75%;
-    margin: 200px;
+    left: 68%;
+    margin: 10%;
+    top: 200%;
+    font-size: 2vw;
 
 }
 
 .skills_description #actual_img{
     position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 200%;
+    width: 7.5%;
+    height: 150%;
+    top: 250%;
 }
 
 .skills_description #front_image #actual_img{
-    left: 12%;
+    margin: 0 0 5% 0;
+    left: 10%;
 }
 
 .skills_description #back_end_image #actual_img{
-    left: 48%;
+    left: 46%;
 }
 .skills_description #other_image #actual_img{
-    left: 85%;
-    height: 140px;
-    width: 140px;
+    left: 78%;
 }
 
 .contact_info{
     display: inline;
     position: absolute;
-    font-size: 40px;
-    top:200%;
-    padding: 100px 1800px 0 0;
+    font-size: 3vw;
+    width: 100%;
+    height: 10%;
+    top: 215%;
 }
 
 .contact_info #ct{
+    display: block;
     position: absolute;
     left: 33%;
-    margin: 60px 0px 0 100px; 
+    top:20%;
 }
 
 .contact_info #line{
     position:absolute;
     width: 90%;
-    margin: 130px 1600px 0 100px; 
+    top: 160%;
+    left: 5%;
 }
 
 .contact_info #contact_img{
-    width: 150px;
-    height: 150px;
-    margin:100px;
+    top: 220%;
     transition: .5s;
+    width: 7%;
+}
+
+.contact_info #git #contact_img{
+    display: inline;
+    position: absolute;
+    left: 28%;
+    margin: 0 1% 0 0;
 
 }
 
-.contact_info #git{
+.contact_info #linked #contact_img{
     display: inline;
     position: absolute;
-    width: 0;
-    height: 0;
-    left: 12%;
-    top: 200%;
-}
-
-.contact_info #linked{
-    display: inline;
-    position: absolute;
-    width: 0;
-    height: 0;
     left: 42%;
-    top: 200%;
+    margin: 0 0 0 0;
+
 }
 
-.contact_info #outlook{
+.contact_info #outlook #contact_img{
     display: inline;
     position: absolute;
-    width: 0;
-    height: 0;
-    left: 72%;
-    top: 200%;
+    left: 58%;
+    margin: 0 1% 0 0;
 }
 
 .contact_info #contact_img:hover{
-    display: inline;
-    position: absolute;
     transform:scale(1.1);
 }
 
@@ -232,7 +252,7 @@ html {
     position: absolute;
     width:15%;
     height: 15%;
-    top: 500%;
+    top: 400%;
 }
 
 .scroll_down{
