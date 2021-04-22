@@ -127,7 +127,7 @@ html {
 
 .my_info #about_title{
     position: absolute;
-    left: 40%;
+    left: 43%;
     top: 0%;
     margin: -1% 0 10% 0;
     font-size: 4vw;
@@ -148,16 +148,14 @@ html {
 
 .my_info #sk{
     position:absolute;
-    left: 45%;
+    left: 46%;
     margin: 0 0 50px 0;
     top: 360%;
     font-size: 4vw;
 
-
 }
 .my_info #line{
     position:absolute;
-    /* left: 5%; */
     top: 450%;
     width: 90%;
     margin: 0% 15% 0 5%;
@@ -209,11 +207,11 @@ html {
 }
 
 .my_info #ct{
-    font-size: 3vw;
+    font-size: 4vw;
     display: block;
     position: absolute;
-    left: 38%;
-    top: 1200%;
+    left: 36%;
+    top: 1170%;
 }
 
 .my_info #line2{
@@ -232,7 +230,7 @@ html {
 .my_info #git #contact_img{
     display: inline;
     position: absolute;
-    left: 28%;
+    left: 33%;
     margin: 0 1% 0 0;
 
 }
@@ -240,7 +238,7 @@ html {
 .my_info #linked #contact_img{
     display: inline;
     position: absolute;
-    left: 42%;
+    left: 48%;
     margin: 0 0 0 0;
 
 }
@@ -248,7 +246,7 @@ html {
 .my_info #outlook #contact_img{
     display: inline;
     position: absolute;
-    left: 58%;
+    left: 65%;
     margin: 0 1% 0 0;
 }
 
