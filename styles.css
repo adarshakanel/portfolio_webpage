@@ -94,11 +94,10 @@ html {
 
 .header_icon1:hover, .header_icon2:hover, .header_icon3:hover, .header_icon4:hover{
     transform:scale(1.1);
-    background-color:rgb(58, 36, 36);
 }
 
-.header_icon:active{
-    background-color:rgb(177, 149, 149);
+.header_icon1:active, .header_icon2:active, .header_icon3:active, .header_icon4:active{
+    background-color:rgb(133, 112, 112);
 }
 
 .level{
