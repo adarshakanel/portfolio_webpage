@@ -56,24 +56,22 @@ body{
     padding: 1.4% 1.9% 1.4% 1.9%;
     border-radius: 20%;
     margin: -3.5% 5% 0 0;
-    box-shadow: .5px .5px #9b9999;
-
 }
 
 .navigator .header_icon1{
-    left: 67%;
+    left: 68%;
 
 }
 .navigator .header_icon2{
-    left: 58%;
+    left: 60%;
 
 }
 .navigator .header_icon3{
-    left: 77%;
+    left: 76.5%;
 
 }
 .navigator .header_icon4{
-    left: 86%;
+    left: 84%;
 }
 .pfp:hover{
     transform:scale(1.1);
@@ -151,7 +149,7 @@ html {
 
 .skills_description #inline{
     position: absolute;
-    margin: 10% 10% 0 10%;
+    margin: 10%;
     top: 200%;
     font-size: 2vw;
 
@@ -160,7 +158,7 @@ html {
 .skills_description #inline2{
     position: absolute;
     left: 36%;
-    margin: 10% 10% 0 10%;
+    margin: 10%;
     top: 200%;
     font-size: 2vw;
 
@@ -169,7 +167,7 @@ html {
 .skills_description #inline3{
     position: absolute;
     left: 68%;
-    margin: 10% 10% 0 10%;
+    margin: 10%;
     top: 200%;
     font-size: 2vw;
 
@@ -199,8 +197,8 @@ html {
     position: absolute;
     font-size: 3vw;
     width: 100%;
-    padding: 5% 0 0 0;
-    top: 210%;
+    height: 10%;
+    top: 215%;
 }
 
 .contact_info #ct{
@@ -211,10 +209,9 @@ html {
 }
 
 .contact_info #line{
-    display: inline;
     position:absolute;
     width: 90%;
-    top: 170%;
+    top: 160%;
     left: 5%;
 }
 
@@ -229,6 +226,7 @@ html {
     position: absolute;
     left: 28%;
     margin: 0 1% 0 0;
+
 }
 
 .contact_info #linked #contact_img{
@@ -266,12 +264,9 @@ html {
     bottom: 20px;
     border-radius: 50px;
     cursor: pointer;
-    transition-duration: .5s;
+
 }
 
-.scroll_down:hover{
-    transform: scale(1.2);
-}
 .scroll_down::before,
 .scroll_down::after{
     content:'';
