@@ -291,10 +291,10 @@ html {
 .scroll_down:hover{
     transform: scale(1.2);
 }
-.scroll_down::after{
+/* .scroll_down::after{
     top:30%;
     animation-delay: .3s;
-}
+} */
 
 @keyframes scroll-down {
     0%{
