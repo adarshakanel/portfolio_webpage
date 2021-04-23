@@ -11,15 +11,6 @@ body{
     height:auto;
 }
 
-.intro{
-    position: absolute;
-    left: 32%;
-    padding: 0 0 30% 0;
-    top: 40%;
-    font-size: 3vw;
-    width: 40%;
-    text-align: center;
-}
 .navigator{
     position: fixed;
     padding: 1%;
@@ -104,17 +95,27 @@ html {
     height: 0.01vw;
     width: 0;
     background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+    transition: width 1s ease, background-color .5s ease;
 }
 
 .header_icon1:hover:after, .header_icon2:hover:after, .header_icon3:hover:after, .header_icon4:hover:after{
     width: 100%;
     background:rgb(177, 90, 9);
-    transition: width .5s ease, background-color .5s ease;
+    transition: width 0.6s ease, background-color .5s ease;
 }
 
 .header_icon1:active, .header_icon2:active, .header_icon3:active, .header_icon4:active{
     background-color:rgb(133, 112, 112);
+}
+
+.intro{
+    position: absolute;
+    left: 32%;
+    padding: 0 0 30% 0;
+    top: 40%;
+    font-size: 3vw;
+    width: 40%;
+    text-align: center;
 }
 
 
@@ -180,7 +181,7 @@ html {
 
 .my_info #inline3{
     position: absolute;
-    left: 68%;
+    left: 69%;
     margin: 10%;
     top: 400%;
     font-size: 2vw;
