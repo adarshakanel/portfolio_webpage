@@ -160,69 +160,73 @@ html {
     margin: 0% 15% 0 5%;
 }
 
-.my_info #inline{
-    position: absolute;
-    top: -15%;
-    left: 24%;
-    font-size: 2vw;
-
-}
-
-.my_info #inline2{
-    position: absolute;
-    top: -15%;
-    left: 140%;
-    font-size: 2vw;
-    width: 40%;
-}
-
-.my_info #inline3{
-    position: absolute;
-    top: -15%;
-    left: 235%;
-    font-size: 2vw;
-}
 
 .my_info #whole_table{
     position: absolute;
     top: 230%;
     font-size: 2vw;
+    height: auto;
+    width: 50%;
 }
 
-.my_info #row1{
+.my_info #whole_table #inline{
+    position: absolute;
+    top: -15%;
+    left: 20%;
+    font-size: 2vw;
+
+}
+
+.my_info #whole_table #inline2{
+    position: absolute;
+    top: -15%;
+    left: 96%;
+    font-size: 2vw;
+    width: 40%;
+}
+
+.my_info #whole_table #inline3{
+    position: absolute;
+    top: -15%;
+    left: 156%;
+    font-size: 2vw;
+}
+
+
+.my_info #whole_table #row1{
     position: relative;
-    left: 25%;
+    left: 20%;
     list-style-type:circle;
 }
 
-.my_info #row2{
+.my_info #whole_table #row2{
     position: relative;
-    left: 120%;
+    left: 75%;
 }
 
 .my_info #row3{
     position: relative;
-    left: 175%;
+    left: 100%;
 }
 
-.my_info #actual_img{
+.my_info #whole_table #actual_img{
     position: absolute;
-    width: 20%;
-    height: 40%;
-    top: -55%;
+    width: 12%;
+    height: 30%;
+    top: -45%;
 }
 
 
-.my_info #front_image #actual_img{
+.my_info #whole_table #front_image #actual_img{
     margin: 0 0 5% 0;
-    left: 30%;
+    left: 25%;
 }
 
-.my_info #back_end_image #actual_img{
-    left: 143%;
+.my_info #whole_table #back_end_image #actual_img{
+    left: 100%;
 }
-.my_info #other_image #actual_img{
-    left: 235%;
+.my_info #whole_table #other_image #actual_img{
+    left: 155%;
 }
 
 .my_info #ct{
@@ -230,18 +234,18 @@ html {
     display: block;
     position: absolute;
     left: 36%;
-    top: 360%;
+    top: 380%;
 }
 
 .my_info #line2{
     position:absolute;
     width: 90%;
-    top: 410%;
+    top: 430%;
     left: 5%;
 }
 
 .my_info #contact_img{
-    top: 430%;
+    top: 450%;
     transition: .5s;
     width: 7%;
 }
@@ -277,7 +281,7 @@ html {
     position: absolute;
     width:15%;
     height: 15%;
-    top: 480%;
+    top: 490%;
 }
 
 .scroll_down{
