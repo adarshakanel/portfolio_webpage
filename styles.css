@@ -207,22 +207,22 @@ html {
 
 .my_info #actual_img{
     position: absolute;
-    width: 7.5%;
-    height: 60%;
-    top: 145%;
+    width: 20%;
+    height: 40%;
+    top: -55%;
 }
 
 
 .my_info #front_image #actual_img{
     margin: 0 0 5% 0;
-    left: 9%;
+    left: 30%;
 }
 
 .my_info #back_end_image #actual_img{
-    left: 46%;
+    left: 143%;
 }
 .my_info #other_image #actual_img{
-    left: 78%;
+    left: 235%;
 }
 
 .my_info #ct{
