@@ -151,13 +151,13 @@ html {
     position:absolute;
     left: 46%;
     margin: 0 0 50px 0;
-    top: 360%;
+    top: 100%;
     font-size: 4vw;
 
 }
 .my_info #line{
     position:absolute;
-    top: 450%;
+    top: 130%;
     width: 90%;
     margin: 0% 15% 0 5%;
 }
@@ -165,16 +165,19 @@ html {
 .my_info #inline{
     position: absolute;
     margin: 10%;
-    top: 400%;
+    top: 130%;
     font-size: 2vw;
 
 }
 
+/* .my_info #inline #inline_column1{
+    left:-10%;
+} */
 .my_info #inline2{
     position: absolute;
     left: 36%;
     margin: 10%;
-    top: 400%;
+    top: 130%;
     font-size: 2vw;
 
 }
@@ -183,7 +186,7 @@ html {
     position: absolute;
     left: 69%;
     margin: 10%;
-    top: 400%;
+    top: 130%;
     font-size: 2vw;
 
 }
@@ -191,8 +194,8 @@ html {
 .my_info #actual_img{
     position: absolute;
     width: 7.5%;
-    height: 150%;
-    top: 490%;
+    height: 60%;
+    top: 135%;
 }
 
 .my_info #front_image #actual_img{
@@ -212,18 +215,18 @@ html {
     display: block;
     position: absolute;
     left: 36%;
-    top: 1170%;
+    top: 360%;
 }
 
 .my_info #line2{
     position:absolute;
     width: 90%;
-    top: 1320%;
+    top: 410%;
     left: 5%;
 }
 
 .my_info #contact_img{
-    top: 1370%;
+    top: 430%;
     transition: .5s;
     width: 7%;
 }
@@ -259,7 +262,7 @@ html {
     position: absolute;
     width:15%;
     height: 15%;
-    top: 1530%;
+    top: 480%;
 }
 
 .scroll_down{
