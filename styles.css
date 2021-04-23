@@ -56,17 +56,15 @@ body{
 }
 
 .navigator .header_icon1{
-    left: 67%;
-
+    left: 76%;
 }
 .navigator .header_icon2{
     left: 58%;
-
 }
 .navigator .header_icon3{
-    left: 77%;
-
+    left: 67%;
 }
+
 .navigator .header_icon4{
     left: 86%;
 }
@@ -151,56 +149,73 @@ html {
     position:absolute;
     left: 46%;
     margin: 0 0 50px 0;
-    top: 100%;
+    top: 110%;
     font-size: 4vw;
 
 }
 .my_info #line{
     position:absolute;
-    top: 130%;
+    top: 140%;
     width: 90%;
     margin: 0% 15% 0 5%;
 }
 
 .my_info #inline{
     position: absolute;
-    margin: 10%;
-    top: 130%;
+    top: -15%;
+    left: 24%;
     font-size: 2vw;
 
 }
 
-/* .my_info #inline #inline_column1{
-    left:-10%;
-} */
 .my_info #inline2{
     position: absolute;
-    left: 36%;
-    margin: 10%;
-    top: 130%;
+    top: -15%;
+    left: 140%;
     font-size: 2vw;
-
+    width: 40%;
 }
 
 .my_info #inline3{
     position: absolute;
-    left: 69%;
-    margin: 10%;
-    top: 130%;
+    top: -15%;
+    left: 235%;
     font-size: 2vw;
+}
 
+.my_info #whole_table{
+    position: absolute;
+    top: 230%;
+    font-size: 2vw;
+}
+
+.my_info #row1{
+    position: relative;
+    left: 25%;
+    list-style-type:circle;
+}
+
+.my_info #row2{
+    position: relative;
+    left: 120%;
+}
+
+.my_info #row3{
+    position: relative;
+    left: 175%;
 }
 
 .my_info #actual_img{
     position: absolute;
     width: 7.5%;
     height: 60%;
-    top: 135%;
+    top: 145%;
 }
+
 
 .my_info #front_image #actual_img{
     margin: 0 0 5% 0;
-    left: 10%;
+    left: 9%;
 }
 
 .my_info #back_end_image #actual_img{
