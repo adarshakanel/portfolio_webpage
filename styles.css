@@ -50,7 +50,7 @@ body{
     padding: 1.4% 1.9% 1.4% 1.9%;
     border-radius: 20%;
     margin: 0% 5% 0 0;
-    box-shadow: 1px 1px #888888;
+    box-shadow: 0.05vw 0.05vw 0.08vw 0.08vw #888888;
     top: 5%;
 
 }
@@ -59,14 +59,14 @@ body{
     left: 76%;
 }
 .navigator .header_icon2{
-    left: 58%;
+    left: 57.5%;
 }
 .navigator .header_icon3{
     left: 67%;
 }
 
 .navigator .header_icon4{
-    left: 86%;
+    left: 86.5%;
 }
 .pfp:hover{
     transform:scale(1.1);
@@ -85,6 +85,8 @@ html {
     transform:scale(1.1);
     color:rgb(177, 90, 9);
     text-shadow: 0.05vw 0.05vw rgb(7, 0, 0);
+    border: 0.05vw solid;
+    border-color: rgb(175, 174, 174);
 }
 
 .header_icon1:after, .header_icon2:after, .header_icon3:after, .header_icon4:after{
