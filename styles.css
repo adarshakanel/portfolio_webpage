@@ -13,9 +13,13 @@ body{
 
 body .navigator{
     font-size: 1vw;;
+    display: flex;
     width:100%;
+    /* height: 1000%; */
     background-color: white;
     padding: 2%;
+    /* display: flex; */
+    /* flex-basis: 200px; */
     text-align: center;
     justify-content: left;
 }
@@ -25,37 +29,33 @@ body .navigator{
     padding: 0%;
     z-index: 2;
     width:100%;
-    height: 2%;;
+    top: -1%;
+    /* height: 2%;; */
     background-image:url(https://images.unsplash.com/photo-1547149600-a6cdf8fce60c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
-    font-size: 1.1vw;
-}
-
-a{
-    width: 10%;
-    margin: 0 0 0 0;
+    font-size: 2vw;
 }
 
 .navigator .pfp{
     position: absolute;
-    background-color: white;
-    top: 10%;
+    background-color: gray;
+    top: 20%;
+    padding: 1%;
     border-radius: 50%;
-    padding: 1.4% 1.4% 1.4% 1.4%;
     transition: .5s ease-in-out;
 }
 
-.pfp:hover{
-    transform:scale(1.1);
+.navigator .pfp:hover{
+    transform: scale(1.1);
 }
 
 .navigator .name{
-    position: absolute;
-    width: 20%;
-    top: -15%;
-    left: 20%;
+    width: 40%;
     font-size: 2vw;
 }
-
+a{
+    width: 10%;
+    margin: 0 0 0 0;
+}
 
 .navigator .header_icon1, .navigator .header_icon2, .navigator .header_icon3, .navigator .header_icon4{
     font-size: 1.1vw;
@@ -64,27 +64,27 @@ a{
     position: absolute;
     color: rgb(182, 179, 179);
     transition: .5s ease-in-out;
-    padding: 1.4% 1.9% 1.4% 1.9%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
     border-radius: 20%;
-    margin: 0% 5% 0 0;
     box-shadow: 0.05vw 0.05vw 0.08vw 0.08vw #888888;
-    top: 5%;
+    top: 20%;
 }
 
 .navigator .header_icon1{
-    left: 76%;
+    margin: 0 0 0 1.5%;
 }
+
 .navigator .header_icon2{
-    left: 57.5%;
+    margin: 0 0 0 1.5%;
 }
+
 .navigator .header_icon3{
-    left: 67%;
+    margin: 0 0 0 .5%;
 }
 
 .navigator .header_icon4{
-    left: 86.5%;
+    margin: 0 0% 0 -1%;
 }
-
 
 html {
     scroll-behavior: smooth;
